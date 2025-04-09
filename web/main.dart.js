@@ -63633,7 +63633,7 @@ if(B.b.n(p,q))s*=o[B.b.fl($.ak7,q)]}return B.c.W(this.CW.i(0,p.length)[a.c]*s)},
 rw(){var s=0,r=A.K(t.H),q=this,p,o
 var $async$rw=A.E(function(a,b){if(a===1)return A.H(b,r)
 while(true)switch(s){case 0:s=2
-return A.D(A.aDA(A.ee("http://192.168.1.21/world_cities_api/api.php?endpoint=cities&limit="+q.as+"&continents="+B.b.bu(q.ay,","))),$async$rw)
+return A.D(A.aDA(A.ee("http://worldcitiesapi.infinityfreeapp.com/world_cities_api/api.php?endpoint=cities&limit="+q.as+"&continents="+B.b.bu(q.ay,","))),$async$rw)
 case 2:o=b
 if(o.b===200){p=J.nQ(B.bQ.dT(A.aDm(A.aBi(o.e).c.a.i(0,"charset")).dT(o.w)),new A.a9P(),t.uL)
 q.d=A.X(p,!0,p.$ti.h("aq.E"))}else throw A.e(A.cD("Failed to load cities from API"))
